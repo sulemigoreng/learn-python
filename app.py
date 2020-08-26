@@ -149,3 +149,35 @@ def max_num(num1,num2,num3):
 
 print(max_num(3,4,5))
 print("\n")
+
+# ------------------------
+# Dictionary
+# ------------------------
+#Key in Dictionary can be Number
+monthConversions = {
+    "Jan":"January",
+    "Feb":"February",
+    "Mar":"March",
+    "Apr":"April",
+    "May":"May",
+    "Jun":"June",
+    "Jul":"July",
+    "Aug":"August",
+    "Sep":"September",
+    "Oct":"October",
+    "Nov":"November",
+    "Dec":"December",
+}
+print(monthConversions["Dec"])
+print(monthConversions.get("Jan"))
+print(monthConversions.get("jul","Not A Valid key"))
+
+# ------------------------
+# Loop While
+# ------------------------
+i = 1
+while i<= 10:
+    print(i)
+    i += 1
+
+print("Done with Loop")
