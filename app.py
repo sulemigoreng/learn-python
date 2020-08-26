@@ -69,3 +69,45 @@ print("\n")
 name = input("Enter your name: ")
 age = input("Enter your age: ")
 print("Hello " + name + "! You are" + age)
+print("\n")
+
+# ------------------------
+# List in Python
+# ------------------------
+friends = ["Kevin", "Karen", "Jim", "Oscar","Toby"]
+print(friends)
+print(friends[0])
+print(friends[1:])
+print(friends[1:3]) # startdi:berhentisebelum
+friends[1] = "Mike"
+print(friends[1])
+print("\n")
+
+# ------------------------
+# List Function
+# ------------------------
+lucky_numbers=[4,8,15,16,23,42]
+friends = ["Kevin","Karen", "Karen", "Jim", "Oscar","Toby"]
+
+friends.append("Creed")
+print(friends)
+friends.insert(1, "Kelly") # Insert di index 1, yang sebelumnya index 1 dan seterusnya kepinggir
+print(friends)
+friends.extend(lucky_numbers)
+print(friends)
+friends.remove("Jim")
+print(friends)
+friends.pop() # Pop an item of off the list (Remove last element)
+print(friends)
+# friends.clear() remove all element in list
+print(friends.index("Kevin"))
+# print(friends.index("Mike")) not found
+print(friends.count("Karen"))
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
+friends2 = friends.copy()
+print(friends2)
+
+print("\n")
