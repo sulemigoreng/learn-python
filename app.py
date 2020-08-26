@@ -1,3 +1,6 @@
+# Importing
+from math import *
+
 # ------------------------
 # Hello World
 # ------------------------
@@ -40,3 +43,22 @@ print(phrase[0])
 print(phrase.index("Acad"))
 print(phrase.replace("Giraffe", "Elephant"))
 print("\n")
+
+# ------------------------
+# Working with Number
+# ------------------------
+print(-2.0987)
+print(3 * (4+5))
+my_num = 5
+print(my_num)
+print(str(my_num))
+my_num = -5
+print(abs(my_num))
+print(pow(3,2)) #3 pangkat 2
+print(max(4,6))
+print(min(4,6))
+print(round(3.28))
+print(floor(3.28))
+print(ceil(3.28))
+print(sqrt(36))
+
