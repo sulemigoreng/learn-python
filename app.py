@@ -171,6 +171,7 @@ monthConversions = {
 print(monthConversions["Dec"])
 print(monthConversions.get("Jan"))
 print(monthConversions.get("jul","Not A Valid key"))
+print("\n")
 
 # ------------------------
 # Loop While
@@ -181,3 +182,42 @@ while i<= 10:
     i += 1
 
 print("Done with Loop")
+print("\n")
+
+# ------------------------
+# Loop For
+# ------------------------
+
+for letter in "Girrafe Academy":
+    print(letter)
+
+friends = ["Jim", "Karen", "Kevin"]
+for friend in friends:
+    print(friend)
+
+for index in range(10): #range itu dari 0-9
+    print(index)
+
+for index in range(len(friends)):
+    print(friends[index])
+
+for index in range(5):
+    if index == 0 :
+        print("First Iteration")
+    else:
+        print("Not First Iteration")
+
+# ------------------------
+# 2D List and Nested Loop
+# ------------------------
+
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+
+for row in number_grid:
+    for column in row:
+        print(column)
