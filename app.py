@@ -109,5 +109,12 @@ lucky_numbers.reverse()
 print(lucky_numbers)
 friends2 = friends.copy()
 print(friends2)
+print("\n")
+
+# ------------------------
+# Tuple in Python : Tuple is like list, but immutable aka gabisa dirubah.
+# ------------------------
+coordinates = (4,5)
+print(coordinates[1])
 
 print("\n")
