@@ -61,4 +61,11 @@ print(round(3.28))
 print(floor(3.28))
 print(ceil(3.28))
 print(sqrt(36))
+print("\n")
 
+# ------------------------
+# Getting Input From User
+# ------------------------
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are" + age)
