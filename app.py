@@ -206,6 +206,7 @@ for index in range(5):
         print("First Iteration")
     else:
         print("Not First Iteration")
+print("\n")
 
 # ------------------------
 # 2D List and Nested Loop
@@ -221,3 +222,18 @@ number_grid = [
 for row in number_grid:
     for column in row:
         print(column)
+print("\n")
+
+# ------------------------
+# Try Except
+# ------------------------
+
+try:
+    answer=10/0
+    number=int(input("Enter a number : "))
+    print(number)
+#except: => kalau gini doang nanti except akan mengexcept semua jenis error
+except ValueError:
+    print("Invalid Input")
+except ZeroDivisionError as err :
+    print(err)
